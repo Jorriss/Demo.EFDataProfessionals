@@ -1,5 +1,5 @@
 # Demo.EFDataProfessionals
-This project are the demos to the Entity Framework for Data Professionals. For more information on the presentation go to http://www.jorriss.net/blog/presentations/entity-framework-for-data-professionals/.
+This project are the demos to the Entity Framework for Data Professionals. For more information on the presentation go to http://www.jorriss.net/blog/efdataprofessionals.
 
 Please note: These demos are to show some issues with Entity Framework not best practices in console applications. I'm just sayin'.
 
