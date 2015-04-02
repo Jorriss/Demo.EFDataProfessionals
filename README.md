@@ -3,7 +3,7 @@ This project are the demos to the Entity Framework for Data Professionals. For m
 
 Please note: These demos are to show some issues with Entity Framework not best practices in console applications. I'm just sayin'.
 
-##Solutions
+## What's In Here
 There are four solutions in this repo
 
 * AdventureWorksEF - This uses AdventureWorks2012 database. Demonstrates the n + 1 problem and how EF could kill indexes.
