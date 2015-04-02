@@ -13,4 +13,4 @@ There are four solutions in this repo
 
 ## Databases
 * AdventureWorks2012 - You can grab it at https://msftdbprodsamples.codeplex.com/releases/view/55330. Once you've installed it you probably should run the `AdventureWorks Index.sql` script
-* StackOverflow - You have to download the data dump at https://archive.org/details/stackexchange. You can write a tool to import the data yourself or you could use the SODDI tool (StackOverflow Data Dump Importer) Jeremiah Peschka has been maintaing a version of SODDI at https://github.com/peschkaj/soddi. Once installed you can run the `StackOverflow FullText.sql` script which will install a Full-Text index on the StackOverflow database.
+* StackOverflow - You have to download the data dump at https://archive.org/details/stackexchange. You can write a tool to import the data yourself or you could use the SODDI tool (StackOverflow Data Dump Importer) Jeremiah Peschka has been maintaining a version of SODDI at https://github.com/peschkaj/soddi. Once installed you can run the `StackOverflow FullText.sql` script which will install a Full-Text index on the StackOverflow database.
