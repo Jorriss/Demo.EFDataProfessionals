@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0d6a821bc0854806aa8af09818e8c9c6" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="AdvWorksEntities.CountryRegionCurrency" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.CreditCard" Width="1.5" PointX="7.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.Currency" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.CurrencyRate" Width="1.5" PointX="7.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.Customer" Width="1.5" PointX="7.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.PersonCreditCard" Width="1.5" PointX="9.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesOrderDetail" Width="1.5" PointX="12" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesOrderHeader" Width="1.5" PointX="9.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesOrderHeaderSalesReason" Width="1.5" PointX="15" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesPerson" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesPersonQuotaHistory" Width="1.5" PointX="5.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesReason" Width="1.5" PointX="12.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesTaxRate" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesTerritory" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SalesTerritoryHistory" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.ShoppingCartItem" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SpecialOffer" Width="1.5" PointX="7.5" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.SpecialOfferProduct" Width="1.5" PointX="9.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvWorksEntities.Store" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <AssociationConnector Association="AdvWorksEntities.FK_CountryRegionCurrency_Currency_CurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_PersonCreditCard_CreditCard_CreditCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderHeader_CreditCard_CreditCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_CurrencyRate_Currency_FromCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_CurrencyRate_Currency_ToCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderHeader_CurrencyRate_CurrencyRateID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_Customer_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_Customer_Store_StoreID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderHeader_Customer_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderDetail_SpecialOfferProduct_SpecialOfferIDProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderHeader_SalesPerson_SalesPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderHeader_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderHeaderSalesReason_SalesOrderHeader_SalesOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesOrderHeaderSalesReason_SalesReason_SalesReasonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesPerson_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesPersonQuotaHistory_SalesPerson_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesTerritoryHistory_SalesPerson_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_Store_SalesPerson_SalesPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SalesTerritoryHistory_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdvWorksEntities.FK_SpecialOfferProduct_SpecialOffer_SpecialOfferID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
